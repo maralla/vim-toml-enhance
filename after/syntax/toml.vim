@@ -1,4 +1,4 @@
-syn match tomlLabel /^.\{-}=/me=e-1 display
+syn match tomlLabel /^[^#]\{-}=/me=e-1 display
 
 hi tomlTable cterm=bold ctermfg=166 guifg=#CB4B16
 hi tomlTableArray cterm=bold ctermfg=166 guifg=#CB4B16
